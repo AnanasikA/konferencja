@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Stylizacja paska przewijania */
+::-webkit-scrollbar {
+    width: 8px; /* Szerokość paska */
+    height: 8px; /* Wysokość paska (dla przewijania poziomego) */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Kolor tła paska przewijania */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #4a90e2, #6c63ff); /* Kolor uchwytu paska z gradientem */
+    border-radius: 10px; /* Zaokrąglenie uchwytu */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #3b82f6, #5b5bf7); /* Kolor uchwytu przy najechaniu */
+  }
+  
+  /* Stylizacja dla przeglądarek Firefox */
+  * {
+    scrollbar-width: thin; /* Cieńszy pasek przewijania */
+    scrollbar-color: #4a90e2 #f0f0f0; /* Kolory: uchwyt i tło */
+  }
+  

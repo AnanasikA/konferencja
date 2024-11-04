@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+/* Stylizacja paska przewijania */
+::-webkit-scrollbar {
+  width: 8px; /* Szerokość paska */
+  height: 8px; /* Wysokość paska (dla przewijania poziomego) */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Kolor tła paska przewijania */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #4a90e2, #6c63ff); /* Kolor uchwytu paska z gradientem */
+  border-radius: 10px; /* Zaokrąglenie uchwytu */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #3b82f6, #5b5bf7); /* Kolor uchwytu przy najechaniu */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Stylizacja dla przeglądarek Firefox */
+* {
+  scrollbar-width: thin; /* Cieńszy pasek przewijania */
+  scrollbar-color: #4a90e2 #f0f0f0; /* Kolory: uchwyt i tło */
 }
