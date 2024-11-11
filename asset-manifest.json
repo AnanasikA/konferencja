@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/konferencja/static/css/main.e104a18c.css",
+    "main.js": "/konferencja/static/js/main.95819d97.js",
+    "static/media/networking.png": "/konferencja/static/media/networking.8bafce98d85ea76f9b3c.png",
+    "static/media/workshop.png": "/konferencja/static/media/workshop.3075bebe5bd286356ddc.png",
+    "static/media/speech.png": "/konferencja/static/media/speech.7425923556a70039e052.png",
+    "index.html": "/konferencja/index.html",
+    "main.e104a18c.css.map": "/konferencja/static/css/main.e104a18c.css.map",
+    "main.95819d97.js.map": "/konferencja/static/js/main.95819d97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e104a18c.css",
+    "static/js/main.95819d97.js"
+  ]
+}
