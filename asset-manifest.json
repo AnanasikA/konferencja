@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/konferencja/static/css/main.e104a18c.css",
-    "main.js": "/konferencja/static/js/main.95819d97.js",
-    "static/media/networking.png": "/konferencja/static/media/networking.8bafce98d85ea76f9b3c.png",
-    "static/media/workshop.png": "/konferencja/static/media/workshop.3075bebe5bd286356ddc.png",
-    "static/media/speech.png": "/konferencja/static/media/speech.7425923556a70039e052.png",
+    "main.css": "/konferencja/static/css/main.d856ae77.css",
+    "main.js": "/konferencja/static/js/main.7c34b013.js",
     "index.html": "/konferencja/index.html",
-    "main.e104a18c.css.map": "/konferencja/static/css/main.e104a18c.css.map",
-    "main.95819d97.js.map": "/konferencja/static/js/main.95819d97.js.map"
+    "main.d856ae77.css.map": "/konferencja/static/css/main.d856ae77.css.map",
+    "main.7c34b013.js.map": "/konferencja/static/js/main.7c34b013.js.map"
   },
   "entrypoints": [
-    "static/css/main.e104a18c.css",
-    "static/js/main.95819d97.js"
+    "static/css/main.d856ae77.css",
+    "static/js/main.7c34b013.js"
   ]
 }
